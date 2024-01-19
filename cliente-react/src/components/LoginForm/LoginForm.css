@@ -1,0 +1,70 @@
+.login-container {
+    min-height: 100vh;
+  }
+  
+  .login-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  .brand-wrapper {
+    margin-bottom: 19px;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 300px;
+   
+  }
+  
+  .login-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  
+  .login-form {
+    max-width: 320px;
+    margin: auto;
+    text-align: left;
+  }
+  
+  .login-form .texto {
+    text-align: left;
+  }
+  
+  .btn-login {
+    background-color: #f4623a;
+    border: none;
+    margin-top: 16px;
+    padding: 10px;
+  }
+  
+  .forgot-password-link {
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+  }
+  
+  .text-reset {
+    color: #f4623a;
+  }
+  .texto{
+    text-align: left;
+  }
+  .bg-image {
+    background-image: url('https://img.freepik.com/vector-gratis/ilustracion-concepto-inicio-sesion_114360-739.jpg?w=740&t=st=1705068121~exp=1705068721~hmac=72e4d36c149ed8a40c3e3d7ca4a20e41b0a21c2c09837b40cb4ae8dbed00d5a2');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 991px) {
+    .bg-image {
+      display: none;
+    }
+  }
+  
